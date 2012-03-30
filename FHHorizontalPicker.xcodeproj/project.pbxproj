@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C0E11A215259B1F00BFB880 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0E11A115259B1F00BFB880 /* UIKit.framework */; };
+		4C0E11A415259B1F00BFB880 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0E11A315259B1F00BFB880 /* Foundation.framework */; };
+		4C0E11A615259B1F00BFB880 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0E11A515259B1F00BFB880 /* CoreGraphics.framework */; };
+		4C0E11AC15259B1F00BFB880 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C0E11AA15259B1F00BFB880 /* InfoPlist.strings */; };
+		4C0E11AE15259B1F00BFB880 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E11AD15259B1F00BFB880 /* main.m */; };
+		4C0E11B215259B1F00BFB880 /* FHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E11B115259B1F00BFB880 /* FHAppDelegate.m */; };
+		4C0E11B515259B1F00BFB880 /* FHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E11B415259B1F00BFB880 /* FHViewController.m */; };
+		4C0E11B815259B1F00BFB880 /* FHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0E11B615259B1F00BFB880 /* FHViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C0E119D15259B1F00BFB880 /* FHHorizontalPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHHorizontalPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0E11A115259B1F00BFB880 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C0E11A315259B1F00BFB880 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C0E11A515259B1F00BFB880 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C0E11A915259B1F00BFB880 /* FHHorizontalPicker-Info.plist */ = {isa = PBXFileReference; path = "FHHorizontalPicker-Info.plist"; sourceTree = "<group>"; };
+		4C0E11AB15259B1F00BFB880 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C0E11AD15259B1F00BFB880 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C0E11AF15259B1F00BFB880 /* FHHorizontalPicker-Prefix.pch */ = {isa = PBXFileReference; path = "FHHorizontalPicker-Prefix.pch"; sourceTree = "<group>"; };
+		4C0E11B015259B1F00BFB880 /* FHAppDelegate.h */ = {isa = PBXFileReference; path = FHAppDelegate.h; sourceTree = "<group>"; };
+		4C0E11B115259B1F00BFB880 /* FHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHAppDelegate.m; sourceTree = "<group>"; };
+		4C0E11B315259B1F00BFB880 /* FHViewController.h */ = {isa = PBXFileReference; path = FHViewController.h; sourceTree = "<group>"; };
+		4C0E11B415259B1F00BFB880 /* FHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHViewController.m; sourceTree = "<group>"; };
+		4C0E11B715259B1F00BFB880 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FHViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C0E119A15259B1F00BFB880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0E11A215259B1F00BFB880 /* UIKit.framework in Frameworks */,
+				4C0E11A415259B1F00BFB880 /* Foundation.framework in Frameworks */,
+				4C0E11A615259B1F00BFB880 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C0E119215259B1E00BFB880 = {
+			isa = PBXGroup;
+			children = (
+				4C0E11A715259B1F00BFB880 /* FHHorizontalPicker */,
+				4C0E11A015259B1F00BFB880 /* Frameworks */,
+				4C0E119E15259B1F00BFB880 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C0E119E15259B1F00BFB880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C0E119D15259B1F00BFB880 /* FHHorizontalPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C0E11A015259B1F00BFB880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C0E11A115259B1F00BFB880 /* UIKit.framework */,
+				4C0E11A315259B1F00BFB880 /* Foundation.framework */,
+				4C0E11A515259B1F00BFB880 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C0E11A715259B1F00BFB880 /* FHHorizontalPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4C0E11B015259B1F00BFB880 /* FHAppDelegate.h */,
+				4C0E11B115259B1F00BFB880 /* FHAppDelegate.m */,
+				4C0E11B315259B1F00BFB880 /* FHViewController.h */,
+				4C0E11B415259B1F00BFB880 /* FHViewController.m */,
+				4C0E11B615259B1F00BFB880 /* FHViewController.xib */,
+				4C0E11A815259B1F00BFB880 /* Supporting Files */,
+			);
+			path = FHHorizontalPicker;
+			sourceTree = "<group>";
+		};
+		4C0E11A815259B1F00BFB880 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C0E11A915259B1F00BFB880 /* FHHorizontalPicker-Info.plist */,
+				4C0E11AA15259B1F00BFB880 /* InfoPlist.strings */,
+				4C0E11AD15259B1F00BFB880 /* main.m */,
+				4C0E11AF15259B1F00BFB880 /* FHHorizontalPicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C0E119C15259B1F00BFB880 /* FHHorizontalPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0E11BB15259B1F00BFB880 /* Build configuration list for PBXNativeTarget "FHHorizontalPicker" */;
+			buildPhases = (
+				4C0E119915259B1F00BFB880 /* Sources */,
+				4C0E119A15259B1F00BFB880 /* Frameworks */,
+				4C0E119B15259B1F00BFB880 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FHHorizontalPicker;
+			productName = FHHorizontalPicker;
+			productReference = 4C0E119D15259B1F00BFB880 /* FHHorizontalPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C0E119415259B1E00BFB880 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FH;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "RWTH Aachen University";
+			};
+			buildConfigurationList = 4C0E119715259B1E00BFB880 /* Build configuration list for PBXProject "FHHorizontalPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C0E119215259B1E00BFB880;
+			productRefGroup = 4C0E119E15259B1F00BFB880 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C0E119C15259B1F00BFB880 /* FHHorizontalPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C0E119B15259B1F00BFB880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0E11AC15259B1F00BFB880 /* InfoPlist.strings in Resources */,
+				4C0E11B815259B1F00BFB880 /* FHViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C0E119915259B1F00BFB880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0E11AE15259B1F00BFB880 /* main.m in Sources */,
+				4C0E11B215259B1F00BFB880 /* FHAppDelegate.m in Sources */,
+				4C0E11B515259B1F00BFB880 /* FHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C0E11AA15259B1F00BFB880 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C0E11AB15259B1F00BFB880 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C0E11B615259B1F00BFB880 /* FHViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C0E11B715259B1F00BFB880 /* en */,
+			);
+			name = FHViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C0E11B915259B1F00BFB880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C0E11BA15259B1F00BFB880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C0E11BC15259B1F00BFB880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FHHorizontalPicker/FHHorizontalPicker-Prefix.pch";
+				INFOPLIST_FILE = "FHHorizontalPicker/FHHorizontalPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C0E11BD15259B1F00BFB880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FHHorizontalPicker/FHHorizontalPicker-Prefix.pch";
+				INFOPLIST_FILE = "FHHorizontalPicker/FHHorizontalPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C0E119715259B1E00BFB880 /* Build configuration list for PBXProject "FHHorizontalPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0E11B915259B1F00BFB880 /* Debug */,
+				4C0E11BA15259B1F00BFB880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C0E11BB15259B1F00BFB880 /* Build configuration list for PBXNativeTarget "FHHorizontalPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0E11BC15259B1F00BFB880 /* Debug */,
+				4C0E11BD15259B1F00BFB880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C0E119415259B1E00BFB880 /* Project object */;
+}
