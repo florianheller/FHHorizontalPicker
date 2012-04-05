@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FHHorizontalPickerView.h"
 
-@interface FHViewController : UIViewController
+@interface FHViewController : UIViewController<FHHorizontalPickerDataSource>
+
+@property (strong) IBOutlet FHHorizontalPickerView* myPicker;
 
 @end
