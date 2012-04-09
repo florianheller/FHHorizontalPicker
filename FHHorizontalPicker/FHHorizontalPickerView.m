@@ -17,6 +17,8 @@
 
 @property (strong)	NSMutableArray *indexedSubViews;
 @property (strong)	FHPickerContentView* contentView;
+
+- (void)loadViews;
 @end
 
 @implementation FHHorizontalPickerView
