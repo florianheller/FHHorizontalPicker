@@ -15,11 +15,13 @@
 		4C0E11B215259B1F00BFB880 /* FHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E11B115259B1F00BFB880 /* FHAppDelegate.m */; };
 		4C0E11B515259B1F00BFB880 /* FHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E11B415259B1F00BFB880 /* FHViewController.m */; };
 		4C0E11B815259B1F00BFB880 /* FHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0E11B615259B1F00BFB880 /* FHViewController.xib */; };
-		4C0E11C61525A14700BFB880 /* FHHorizontalPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E11C51525A14700BFB880 /* FHHorizontalPickerView.m */; };
-		4C0E11D81525DD5200BFB880 /* FHPickerContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E11D71525DD5100BFB880 /* FHPickerContentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17A9213F1532D4780063AF61 /* FHHorizontalPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHHorizontalPickerView.h; sourceTree = "<group>"; };
+		17A921401532D4780063AF61 /* FHHorizontalPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHHorizontalPickerView.m; sourceTree = "<group>"; };
+		17A921411532D4780063AF61 /* FHPickerContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHPickerContentView.h; sourceTree = "<group>"; };
+		17A921421532D4780063AF61 /* FHPickerContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHPickerContentView.m; sourceTree = "<group>"; };
 		4C0E119D15259B1F00BFB880 /* FHHorizontalPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHHorizontalPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0E11A115259B1F00BFB880 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4C0E11A315259B1F00BFB880 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -33,10 +35,6 @@
 		4C0E11B315259B1F00BFB880 /* FHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHViewController.h; sourceTree = "<group>"; };
 		4C0E11B415259B1F00BFB880 /* FHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHViewController.m; sourceTree = "<group>"; };
 		4C0E11B715259B1F00BFB880 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FHViewController.xib; sourceTree = "<group>"; };
-		4C0E11C41525A14700BFB880 /* FHHorizontalPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHHorizontalPickerView.h; sourceTree = "<group>"; };
-		4C0E11C51525A14700BFB880 /* FHHorizontalPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHHorizontalPickerView.m; sourceTree = "<group>"; };
-		4C0E11D61525DD5100BFB880 /* FHPickerContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHPickerContentView.h; sourceTree = "<group>"; };
-		4C0E11D71525DD5100BFB880 /* FHPickerContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHPickerContentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +51,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17A9213D1532D4620063AF61 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				17A9213F1532D4780063AF61 /* FHHorizontalPickerView.h */,
+				17A921401532D4780063AF61 /* FHHorizontalPickerView.m */,
+				17A921411532D4780063AF61 /* FHPickerContentView.h */,
+				17A921421532D4780063AF61 /* FHPickerContentView.m */,
+			);
+			name = PickerView;
+			sourceTree = "<group>";
+		};
 		4C0E119215259B1E00BFB880 = {
 			isa = PBXGroup;
 			children = (
@@ -83,7 +92,7 @@
 		4C0E11A715259B1F00BFB880 /* FHHorizontalPicker */ = {
 			isa = PBXGroup;
 			children = (
-				4C0E11E71525E61700BFB880 /* FHHorizontalPicker */,
+				17A9213D1532D4620063AF61 /* PickerView */,
 				4C0E11B015259B1F00BFB880 /* FHAppDelegate.h */,
 				4C0E11B115259B1F00BFB880 /* FHAppDelegate.m */,
 				4C0E11B315259B1F00BFB880 /* FHViewController.h */,
@@ -103,17 +112,6 @@
 				4C0E11AF15259B1F00BFB880 /* FHHorizontalPicker-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4C0E11E71525E61700BFB880 /* FHHorizontalPicker */ = {
-			isa = PBXGroup;
-			children = (
-				4C0E11C41525A14700BFB880 /* FHHorizontalPickerView.h */,
-				4C0E11C51525A14700BFB880 /* FHHorizontalPickerView.m */,
-				4C0E11D61525DD5100BFB880 /* FHPickerContentView.h */,
-				4C0E11D71525DD5100BFB880 /* FHPickerContentView.m */,
-			);
-			name = FHHorizontalPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,8 +181,6 @@
 				4C0E11AE15259B1F00BFB880 /* main.m in Sources */,
 				4C0E11B215259B1F00BFB880 /* FHAppDelegate.m in Sources */,
 				4C0E11B515259B1F00BFB880 /* FHViewController.m in Sources */,
-				4C0E11C61525A14700BFB880 /* FHHorizontalPickerView.m in Sources */,
-				4C0E11D81525DD5200BFB880 /* FHPickerContentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
